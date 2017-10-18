@@ -2,7 +2,7 @@
 <html>
 <head>
   <title>Search Engine</title>
-  <link type="text/css" rel="stylesheet" href="search_engine (Wrong).css">
+  <link type="text/css" rel="stylesheet" href="search_engine.css">
   <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <link href="https://fonts.googleapis.com/css?family=Fascinate+Inline|Quicksand:300|Raleway:200" rel="stylesheet">
@@ -56,14 +56,10 @@
 
   <div id="section">
     <h2>Typ your search query below:</h2>
-      <form action="search_engine.php" method="post">
+      <form action="search_engine_result.html" method="post">
         <input type="search" name="zoeken" placeholder="Enter query here..." id="zoeken">
         <button type="submit" class="zoeken">Search</button>
       </form>
-
-    <p>U heeft gezocht op de query: "<?php echo $_POST["zoeken"]; ?>"<br>
-Dit gaf echter geen resultaten.</p>
-  
   </div>
 
   <!-- 
